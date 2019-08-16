@@ -1,0 +1,533 @@
+/*-------- LOADING PAGE------------------------------*/
+.rightScreen {
+  left: 50%;
+  height: 100%;
+  color: black;
+  background-color: black;
+  width: 50%;
+  padding-top: 100%;
+  display: block;
+  position: fixed;
+  z-index: 10000px;
+}
+
+.leftScreen {
+  right: 50%;
+  height: 100%;
+  color: black;
+  background-color: black;
+  width: 50%;
+  padding-top: 100%;
+  display: block;
+  position: fixed;
+  z-index: 10001px;
+}
+
+/* right movement*/
+@keyframes rightmoves {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.rightScreen {
+  animation: rightmoves 10.5s 1 forwards;
+}
+
+/*----left movement---*/
+@keyframes leftmoves {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.leftScreen {
+  animation: leftmoves 10.5s 1 forwards;
+}
+
+/*------------------------ ANIMATION NAME maka__________________*/
+h1 {
+  color: white;
+  margin-top: 0;
+  z-index: 200;
+  position: fixed;
+  padding-left: 3%;
+  text-align: left;
+  background: black;
+  margin-left: 0;
+  padding-top: 0;
+}
+
+h1 spam {
+  opacity: .5;
+  display: inline-block;
+  animation: animate .8s linear forwards 2;
+}
+
+#m {
+  font-size: 1.2em;
+}
+
+#r {
+  font-size: .9em;
+  text-transform: capitalize;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+    filter: blur(0);
+  }
+}
+
+h1 spam:nth-child(1) {
+  animation-delay: 0s;
+}
+
+h1 spam:nth-child(2) {
+  animation-delay: .4s;
+}
+
+h1 spam:nth-child(3) {
+  animation-delay: .6s;
+}
+
+h1 spam:nth-child(4) {
+  animation-delay: 1.4s;
+}
+
+h1 spam:nth-child(5) {
+  animation-delay: 1.5s;
+}
+
+h1 spam:nth-child(6) {
+  animation-delay: 1.6s;
+}
+
+h1 spam:nth-child(7) {
+  animation-delay: 1.7s;
+}
+
+h1 spam:nth-child(8) {
+  animation-delay: 1.8s;
+}
+
+h1 spam:nth-child(9) {
+  animation-delay: 1.9s;
+}
+
+h1 spam:nth-child(10) {
+  animation-delay: 2s;
+}
+
+.namePosition {
+  padding-left: 1%;
+}
+
+/* carousel Slider ---------------------------------------*/
+/*.mainCarousel {
+  padding-top: 10%;
+  padding-bottom: 4%;
+  width: 100%;
+  position: relative;
+  background: white;
+  border: 10px solid black;
+}*/
+.carousel-control-prev {
+  left: 22%;
+  color: #131112;
+}
+
+.carousel-control-next {
+  right: 22%;
+}
+
+.carousel {
+  z-index: 0;
+  background: white;
+}
+
+#carouselExampleControls {
+  margin-top: 6%;
+}
+
+/* -----------------------------------------------
+
+
+
+
+styles
+
+-----------------------------------------------*/
+body {
+  text-align: center;
+  z-index: 100;
+  padding-top: 0px;
+}
+
+/*Resposive ------------->>>>>>images*/
+img {
+  max-width: 100%;
+}
+
+/*-----------------------------------------------
+Typography nav
+-----------------------------------------------*/
+a {
+  color: white;
+  font-weight: 600;
+  transition: all .4 ease-in-out;
+  right: 5%;
+}
+
+.linkColor {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-shadow: 0 0 10px rgba(33, 156, 243, 1),
+    0 0 10px rgba(33, 156, 243, 1);
+}
+
+/*-----------------------------------------------
+    Typography   Text  and otherthings
+-----------------------------------------------*/
+.paragraph {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: none;
+  font-size: 17px;
+  line-height: 4.2;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.lastParagraph {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: none;
+  font-size: 17px;
+  line-height: 4.2;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 2%;
+  text-align: right;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Fahkwang', fantasy;
+  text-transform: capitalize;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.5;
+  font-weight: 550;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 550;
+}
+
+h3 {
+  font-family: 'Montserrat', fantasy;
+  margin-bottom: 30px;
+  font-weight: 550;
+  font-size: 150%;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.arrowDown {
+  right: 50%;
+  left: 50%;
+  position: fixed;
+  border-color: white transparent;
+  border-style: solid;
+  border-width: 20px 20px 0px 20px;
+  height: 0px;
+  width: 0px;
+  padding-top: 0;
+  z-index: 0;
+}
+
+/*--------lines what I love----*/
+.lines {
+  width: 90%;
+  padding-bottom: 2%;
+  border-color: white transparent;
+  z-index: 1205;
+}
+
+/*-----------------------------------------------
+Layout
+-----------------------------------------------*/
+section {
+  background-color: black;
+  color: white;
+}
+
+.grid-wrapper {
+  padding-top: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.callout {
+  background-color: #b57a69;
+}
+
+/*-----------------------------------------------
+header nav hamburger
+-----------------------------------------------*/
+.mainMenu {
+  padding-top: 3%;
+  z-index: 1;
+}
+
+.hamburger {
+  font-size: 150%;
+  margin: 10px 0;
+  padding-left: 85%;
+  color: white;
+  position: relative;
+  z-index: 300;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-style: bold;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 6px solid #1B1C1F;
+  border-top: 6px solid #1B1C1F;
+  border-right: 4px solid #1B1C1F;
+  border-left: 4px solid #1B1C1F;
+}
+
+nav ul {
+  padding-top: 2%;
+  list-style: none;
+  padding-left: 50%;
+}
+
+nav li {
+  display: inline-block;
+  padding: 3px 60px;
+}
+
+nav a {
+  font-weight: 600;
+  letter-spacing: .50px;
+  display: inline-block;
+  border-bottom: none;
+  text-transform: none;
+}
+
+/*-----------------------------------------------
+Typography nav
+-----------------------------------------------*/
+a {
+  color: white;
+  font-weight: 600;
+  transition: all .4 ease-in-out;
+  right: 5%;
+}
+
+.linkColor {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  text-shadow: 0 0 10px rgba(33, 156, 243, 1),
+    0 0 10px rgba(33, 156, 243, 1);
+}
+
+/*-----------------------------------------------
+Buttons
+-----------------------------------------------*/
+button {
+  cursor: pointer;
+  outline: 0;
+  color: #44545E;
+  border-color: #131112;
+  padding: 8px 25.5px;
+  background-color: transparent;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12.299px;
+  letter-spacing: 1.2px;
+  transition: all .3s ease-in-out;
+}
+
+button:hover {
+  color: white;
+  font-weight: 600;
+}
+
+.articles button {
+  margin-top: 30px;
+}
+
+/*-----------------------------------------------
+ About
+-----------------------------------------------*/
+.about h2 {
+  margin-bottom: 0;
+}
+
+/*-----------------------------------------------
+
+Footer
+-----------------------------------------------*/
+footer {
+  background-color: #131112;
+  overflow: auto;
+  color: #white;
+  border-top: 2px solid #1B1C1F;
+  border-bottom: 8px solid #1B1C1F;
+}
+
+footer input {
+  padding: 11px 10px;
+  width: 300px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+footer .wrap {
+  padding: 30px 15px;
+}
+
+/* sub ID it's Subscribe buttom*/
+#sub {
+  color: #131112;
+  background-color: #131112;
+}
+
+.social-links a {
+  font-size: 30px;
+  padding: 15px;
+  margin-bottom: 30px;
+  display: inline-block;
+  color: #898989;
+}
+
+.copyright {
+  border-top: 2px solid white;
+  padding: 15px 0 3px;
+  color: white;
+}
+
+.heart {
+  color: red;
+}
+
+input {
+  border: 2px solid #898989;
+  margin-bottom: 12px;
+  padding: 10px 10px;
+  outline: 0;
+  color: #898989;
+}
+
+::-webkit-input-placeholder {
+  color: #898989;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-size: 12.299px;
+  font-weight: 600;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #898989;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-size: 12.299px;
+  font-weight: 600;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #898989;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-size: 12.299px;
+  font-weight: 600;
+}
+
+:-ms-input-placeholder {
+  color: #898989;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-size: 12.299px;
+  font-weight: 600;
+}
+
+/* -----------------------------------------------
+media queries below  ---- RESPOSIVE---- KEEP WORKING MAKITA !!
+-----------------------------------------------*/
+@media screen and (max-width: 2000px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  nav ul {
+    text-align: right;
+    padding-left: 30%;
+  }
+
+  nav li {
+    padding: 3px 30px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .mainMenu {
+    display: none;
+  }
+
+  .namePosition {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .paragraph {
+    display: none;
+  }
+}
+}
+
+@media only screen and (max-width:661px) {
+  nav ul {
+    text-align: left;
+    padding-right: 30%;
+  }
+}

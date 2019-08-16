@@ -1,0 +1,120 @@
+body {
+  color: white;
+  text-align: center;
+  background-color: black;
+  background-position: center 100px;
+  background-size: auto 100%;
+}
+
+.click {
+  padding-top: 20%;
+  font-family: 'Pt sans Narrow', sans-serif;
+  text-transform: lowercase;
+}
+
+a {
+  color: #c74e50;
+  font-size: 6vh;
+}
+
+input, button {
+  padding-top: 8px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+p {
+  color: #c74e50;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6vh;
+  margin: 0;
+  margin-top: 0%;
+  padding: 0;
+  position: absolute;
+  top: 10%;
+  transform: translateY(-50%);
+  width: 100%;
+  color: #ddd;
+  font-family: sans-serif;
+  text-transform: none;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+/* style maka --------------------   */
+h1 spam {
+  opacity: .5;
+  display: inline-block;
+  animation: animate .8s linear forwards;
+}
+
+#m {
+  font-size: 1.2em;
+}
+
+#r {
+  font-size: .9em;
+  text-transform: capitalize;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+    filter: blur(0);
+  }
+}
+
+h1 spam:nth-child(1) {
+  animation-delay: 0s;
+}
+
+h1 spam:nth-child(2) {
+  animation-delay: .4s;
+}
+
+h1 spam:nth-child(3) {
+  animation-delay: .6s;
+}
+
+h1 spam:nth-child(4) {
+  animation-delay: 1.4s;
+}
+
+h1 spam:nth-child(5) {
+  animation-delay: 1.5s;
+}
+
+h1 spam:nth-child(6) {
+  animation-delay: 1.6s;
+}
+
+h1 spam:nth-child(7) {
+  animation-delay: 1.7s;
+}
+
+h1 spam:nth-child(8) {
+  animation-delay: 1.8s;
+}
+
+h1 spam:nth-child(9) {
+  animation-delay: 1.9s;
+}
+
+h1 spam:nth-child(10) {
+  animation-delay: 2s;
+}
+
+/**
+ * CONTAINER NEON LIGHT/ ITS ALL ABOUT THE PROCESS .
+ */
