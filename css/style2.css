@@ -8,7 +8,7 @@
   padding-top: 100%;
   display: block;
   position: fixed;
-  z-index: 10000px;
+  z-index: 10000;
 }
 
 .leftScreen {
@@ -20,7 +20,7 @@
   padding-top: 100%;
   display: block;
   position: fixed;
-  z-index: 10001px;
+  z-index: 10001;
 }
 
 /* right movement*/
@@ -159,11 +159,11 @@ h1 spam:nth-child(10) {
 
 .carousel {
   z-index: 0;
-  background: white;
+  background-color: transparent;
 }
 
 #carouselExampleControls {
-  margin-top: 6%;
+  margin-top: 5.3%;
 }
 
 /* -----------------------------------------------
@@ -178,6 +178,7 @@ body {
   text-align: center;
   z-index: 100;
   padding-top: 0px;
+  background-color: #c4cdd4;
 }
 
 /*Resposive ------------->>>>>>images*/
@@ -189,7 +190,7 @@ img {
 Typography nav
 -----------------------------------------------*/
 a {
-  color: white;
+  color: #D8D8DF;
   font-weight: 600;
   transition: all .4 ease-in-out;
   right: 5%;
@@ -200,7 +201,7 @@ a {
 }
 
 a:hover {
-  color: white;
+  color: #D8D8DF;
   text-shadow: 0 0 10px rgba(33, 156, 243, 1),
     0 0 10px rgba(33, 156, 243, 1);
 }
@@ -504,13 +505,13 @@ media queries below  ---- RESPOSIVE---- KEEP WORKING MAKITA !!
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 890px) {
   .mainMenu {
     display: none;
   }
 
   .namePosition {
-    display: none;
+    margin-top: -15px;
   }
 
   .hamburger {
