@@ -8,7 +8,7 @@
   padding-top: 100%;
   display: block;
   position: fixed;
-  z-index: 10000;
+  z-index: 1000;
 }
 
 .leftScreen {
@@ -20,7 +20,7 @@
   padding-top: 100%;
   display: block;
   position: fixed;
-  z-index: 10001;
+  z-index: 1001;
 }
 
 /* right movement*/
@@ -57,7 +57,7 @@
 h1 {
   color: white;
   margin-top: 0;
-  z-index: 200;
+  z-index: 2000;
   position: fixed;
   padding-left: 3%;
   text-align: left;
@@ -257,7 +257,7 @@ h3 {
   right: 50%;
   left: 50%;
   position: fixed;
-  border-color: white transparent;
+  border-color: #D8D8DF transparent;
   border-style: solid;
   border-width: 20px 20px 0px 20px;
   height: 0px;
@@ -519,9 +519,10 @@ media queries below  ---- RESPOSIVE---- KEEP WORKING MAKITA !!
   }
 }
 
-@media only screen and (min-width: 900px) {
-  .paragraph {
-    display: none;
+@media only screen and (min-width: 700px) {
+  .paragraph, .lastParagraph {
+    font-size: 10px;
+    line-height: 2.8;
   }
 }
 }
