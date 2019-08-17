@@ -444,10 +444,15 @@ mimic the
 codes
 for the anchor on the
 nav  */
-.heart:hover {
+#heart {
   color: red;
-  text-shadow: 0 0 10px rgba(33, 156, 243, 1),
-    0 0 10px rgba(33, 156, 243, 1);
+}
+
+#heart:hover {
+  text-decoration-color: red;
+  color: red;
+  font-size: 50px;
+  padding-bottom: 1%;
 }
 
 input {
