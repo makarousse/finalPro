@@ -479,7 +479,12 @@ footer input {
 
 /*     make heart to glow  and turn Required  */
 .footerTextWrap {
+  color: #585C65;
+}
+
+#textid {
   color: red;
+  background-color: 1px black solid;
 }
 
 .footerTextWrap:hover {
