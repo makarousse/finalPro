@@ -233,7 +233,8 @@ a:hover {
   width: 93%;
   padding: 27px;
   margin-left: 4%;
-  padding-right: 8% background: #131112;
+  padding-right: 8%;
+  background: #131112;
   border-radius: 10px;
   box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
 }
@@ -329,8 +330,13 @@ h3 {
   text-align: center;
 }
 
-.arrowDown {
+#arrowDown {
   left: 48.5%;
+  width: 0%;
+  line-height: 0;
+  position: fixed;
+  display: block;
+  cursor: pointer;
   position: fixed;
   border-color: #D8D8DF transparent;
   border-style: solid;
@@ -338,7 +344,11 @@ h3 {
   height: 0px;
   width: 0px;
   padding-top: 0;
-  z-index: 0;
+  text-decoration: none;
+}
+
+#arrowDown:hover {
+  color: red;
 }
 
 /*-----------------------------------------------
@@ -524,8 +534,8 @@ input {
 }
 
 #sub {
-  color: #898989;
-  background: white;
+  color: #red;
+  background: red;
 }
 
 ::-webkit-input-placeholder {
