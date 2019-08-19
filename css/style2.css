@@ -230,10 +230,23 @@ a:hover {
   font-family: 'Montserrat', sans-serif;
   border: gray 2px solid;
   color: #c1c1c5;
-  width: 100%;
-  padding: 48px;
-  padding-left: 22%;
-  background: #131112;
+  width: 93%;
+  padding: 27px;
+  margin-left: 4%;
+  padding-right: 8% background: #131112;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, .2);
+}
+
+/* here to add picture subs on background: white a pic*/
+.circle {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: .5%;
 }
 
 /*--------lines what I love----*/
