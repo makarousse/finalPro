@@ -480,7 +480,7 @@ Footer
 footer {
   background-color: #131112;
   overflow: auto;
-  color: #white;
+  color: white;
   border-top: 2px solid #1B1C1F;
   border-bottom: 8px solid #1B1C1F;
 }
@@ -534,8 +534,8 @@ input {
 }
 
 #sub {
-  color: #red;
-  background: red;
+  color: #898989;
+  background-color: #131112
 }
 
 ::-webkit-input-placeholder {
