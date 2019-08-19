@@ -148,6 +148,10 @@ h1 spam:nth-child(10) {
   background: white;
   border: 10px solid black;
 }*/
+.carousel-item {
+  background-color: #282627cc;
+}
+
 .carousel-control-prev {
   left: 22%;
   color: #131112;
@@ -212,18 +216,20 @@ a:hover {
 -----------------------------------------------*/
 .paragraph {
   font-family: 'Montserrat', sans-serif;
+  color: #c1c1c5;
   text-transform: none;
   font-size: 17px;
   line-height: 4.2;
   max-width: 80%;
   margin-left: 10%;
   margin-right: 10%;
+  padding-bottom: 75px;
 }
 
 .lastParagraph {
   font-family: 'Montserrat', sans-serif;
   border: gray 2px solid;
-  color: gray;
+  color: #c1c1c5;
   width: 100%;
   padding: 48px;
   padding-left: 22%;
@@ -292,6 +298,7 @@ h2 {
   font-family: 'Fahkwang', fantasy;
   text-transform: capitalize;
   text-align: center;
+  color: #EFEFEF;
   line-height: 1.5;
   font-weight: 550;
   font-size: 25px;
@@ -301,7 +308,7 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', fantasy;
-  color: #585C65;
+  color: #EFEFEF;
   margin-bottom: 30px;
   font-weight: 550;
   font-size: 150%;
@@ -484,7 +491,7 @@ footer input {
 
 #textid {
   color: red;
-  background-color: 1px black solid;
+  background-color: 20px black;
 }
 
 .footerTextWrap:hover {
@@ -505,7 +512,7 @@ input {
 
 #sub {
   color: #898989;
-  background: black;
+  background: white;
 }
 
 ::-webkit-input-placeholder {
