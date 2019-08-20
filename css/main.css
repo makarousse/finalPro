@@ -250,6 +250,36 @@ a:hover {
   margin: .5%;
 }
 
+.cloudTalk {
+  width: 37px;
+  height: 35px;
+  border-color: white;
+  padding-top: 2%;
+  padding-bottom: 0%;
+  left: 13%;
+  float: left;
+  shape-outside: circle();
+  margin: .5%;
+  position: relative;
+  display: block;
+}
+
+.cloudTalk:hover {
+  width: 115px;
+  height: 103px;
+  border-color: white;
+  padding-bottom: 1%;
+  float: left;
+  shape-outside: circle();
+  margin: .5%;
+  position: relative;
+  display: inline-block;
+}
+
+.cloudTalk input[value="1"]:hover+.rating-fill {
+  width: 1000%;
+}
+
 /*--------lines what I love----*/
 .lines, #lines {
   width: 100%;
