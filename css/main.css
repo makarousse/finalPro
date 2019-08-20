@@ -250,6 +250,10 @@ a:hover {
   margin: .5%;
 }
 
+/* not active  cloud talk
+woud show---->
+
+
 .cloudTalk {
   width: 37px;
   height: 35px;
@@ -528,6 +532,12 @@ footer input {
   padding: 15px;
   margin-bottom: 30px;
   display: inline-block;
+  color: #898989;
+}
+
+/*email thing */
+#email {
+  font-size: 18px;
   color: #898989;
 }
 

@@ -27,15 +27,13 @@
 
 <body>
 
-  <!---   SCREENS SCREENS SCREENS SCREENS SCREENS
+
   <section class="screens">
     <div class="leftScreen"></div>
 
     <div class="rightScreen"></div>
   </section>
 
-      SCREENS SCREENS SCREENS SCREENS SCREENS
--->
 
   <div class="namePosition">
     <h1>
@@ -129,7 +127,7 @@
         <img src="img/meShoting.png" alt="meShooting" width="135%">
         <h2>Photographer</h2>
         <p class=paragraph>Photography it's such an amazing window to different realities witnessed by the observant. Memories are a gift, I think we are beings of visual experiences.
-          I also enjoy the problem/solving aspect of photography. Being a photographer helps to develop your created & analytical aspect of the brain.
+          I also enjoy the problem/solving aspect of photography. Being a photographer helps to develop my creativity & analytical aspect of the brain.
       </article>
 
 
@@ -146,10 +144,10 @@
 
 
     <!--  HERE CIRCLE WRAP AROUND TEXT AND INSERT My PHOTO -->
-
+    <!--
     <div>
-      <img src="img/I'mMaka.png" class="cloudTalk" alt="Cloud">
-    </div>
+    <img src="img/I'mMaka.png" class="cloudTalk" alt="Cloud">
+  </div> -->
     <div class="lastParagraph">
       <div>
         <img src="img/profilePic.png" class="circle" alt="Person">
@@ -158,11 +156,9 @@
       <h3>Living in the City of Los Angeles</h3>
 
 
-      <p> In 2019 decided to start a new journey as Front & End Developer. I am passionate & newbie on Tech, looking to learn and make a positive impact wherever I go.
-        There are few things that mean and bring the best of me. My family and friends, I love new experiences, as a right now I am learing and building websites.
-        Year of 2019 has been great to me, I am just finishing Front-End Web Development in General Assembly at Downtown LA, and Starting Autumn of 2019 Web Development Bootcamp. I feel a lot of curiosity and passion about developing Websites and
-        I love visuals.
-      </P>
+      <p>Hi I'm Maka. I am a very positive person that loves challenges and new experiences. This 2019, I have decided to start a new journey as a Web Developer. I am a passionate newbie, looking to make a positive impact in this field while I learn
+        new technologies and building awesome websites. My backgound is in photography and I have always loved visuals, I have fund in development a new way to express my perspective of art . This year has been great to me, I am just finishing a
+        Front-End Web Development program at General Assembly in Downtown LA, and I will be staring a Web Development Bootcamp in Autumn 2019.  Family and friends, are some of the things that bring the best of me.</p>
     </div>
 
     <!--Lifestyle... Of Constant Learning And Improvement...
@@ -192,7 +188,9 @@
       <input type="text" href="mailto:makarousse@gmail.complaceholder="Email Address">
       <button id="sub" type="submit">Subscribe</button>
 -->
-      <a href="mailto:makarousse@gmail.com">Get in Tuch @</a>
+      <div='email'>
+        <a href="mailto:makarousse@gmail.com">Get in Tuch @</a>
+      </div>
     </div>
     <hr>
     <p class="copyright">&copy;2019 Maka Rousse</p>
@@ -213,7 +211,25 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
+  <script type="text/javascript" src="http://www.cornify.com/js/cornify.js">
+  </script>
+  <script>
+    const pressed = []
+    const secretCode = "hello";
 
+    window.addEventListener('keyup', (e) => {
+      console.log(e.key);
+      pressed.push(e.key);
+      pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+      if (pressed.join('').includes(secretCode)) {
+        console.log('DING DING you did it !!');
+        cornify_add();
+        $(document).keydown(cornify_add);
+      }
+      console.log(pressed);
+
+    });
+  </script>
 </body>
 
 </html>
