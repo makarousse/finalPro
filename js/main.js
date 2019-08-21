@@ -24,3 +24,9 @@ $(window).scroll(function() {
   $("#arrowDown").css("opacity", 1 - $(window).scrollTop() / 550);
 });
 /*Scroll to top when arrow up clicked END*/
+
+$(document).ready(function() {
+  $("body").on('click', '.top', function() {
+    $("nav").toggleClass("mainMenu_show");
+  });
+});
