@@ -1,7 +1,7 @@
 /*-------- this is css for main page linked to html------------------------------*/
 .rightScreen {
   left: 50%;
-  height: 100%;
+  height: 110%;
   color: black;
   background-color: black;
   width: 50%;
@@ -13,7 +13,7 @@
 
 .leftScreen {
   right: 50%;
-  height: 100%;
+  height: 110%;
   color: black;
   background-color: black;
   width: 50%;
